@@ -1,0 +1,23 @@
+<div id="mainFlexslider" class="slider_content flexslider" >
+    <ul class="slides">
+        <li ng-repeat="article in articles">
+            <article> 
+                <div class="slider_title">
+                    <div class="slider-post-meta">
+                        <span class="prl-post-rating">
+                            <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                        </span>                        
+                    </div>
+                    <h2><a href="#order-detail?{{article.post_link}}">{{article.post_title}}</a></h2>
+                </div>
+                <a href="#order-detail?{{article.post_link}}"><img ng-src="assets/images/_slider/{{$index}}.jpg" alt="slider"></a>
+            </article>
+        </li>                        
+    </ul>
+</div>
+<div class="slider_tabs">
+    <ul class="tabs" id="main-slider-control-nav">
+        <li ng-repeat="article in articles"><div class="tab_content"><a href="#order-detail?{{article.post_link}}" >{{article.post_subtitle.substr(0, 60) + "..."}}</a></div></li>                        
+    </ul>
+</div>
+<div class="clear"></div>

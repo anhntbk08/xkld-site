@@ -1,0 +1,1277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+        <title>Original HTML Template</title>
+        <link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+        <link rel="stylesheet" href="assets/css/weather-icons.min.css">
+        <link rel="stylesheet" href="assets/css/megafish.css">
+        <link rel="stylesheet" href="assets/css/framework.css">
+        <link rel="stylesheet" href="assets/flexslider/flexslider-alt.css">
+        <link rel="stylesheet" href="assets/flexslider/flexslider-tab.css">
+
+        <link rel="stylesheet" href="style.css" type='text/css' media="screen" />
+        <link rel='stylesheet' href='assets/css/print.css' id="print-style-css" type='text/css' media="print" />
+
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script type="text/javascript">
+            if (typeof jQuery == 'undefined')
+            {
+                document.write(unescape("%3Cscript src='assets/js/jquery-1.10.2.min.js' type='text/javascript'%3E%3C/script%3E"));
+            }
+        </script>
+
+        <script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript" ></script>
+        <script src="assets/js/custom.js"></script>
+
+    </head>
+    <body class="site-boxed">
+
+        <div class="site-wrapper">
+            <div class="prl-container">
+
+                <header id="masthead" class="clearfix">
+                    <div class="prl-header-logo"><a href=""><img src="assets/images/logo.png" alt="Original" /></a></div>
+
+                    <div class="prl-header-social">
+                        <a href="#" class="fa fa-facebook" title="Facebook" data-prl-tooltip></a>
+                        <a href="#" class="fa fa-twitter" title="Twitter" data-prl-tooltip></a>
+                        <a href="#" class="fa fa-pinterest" title="Pinterest" data-prl-tooltip></a>
+                        <a href="#" class="fa fa-google-plus" title="Google plus" data-prl-tooltip></a>
+                        <a href="#" class="fa fa-linkedin" title="LinkedIn" data-prl-tooltip></a>
+                    </div>
+                    <div class="prl-header-right">
+                        <span class="prl-header-custom-text"><i class="fa fa-phone-square"></i> +174 123 456 789</span>
+                        <span class="prl-header-time"><i class="fa fa-clock-o"></i> Monday - Nov 12th, 2013</span>
+                    </div>	
+                </header>
+
+                <script>
+            $(function() {
+                var example = $('#sf-menu').superfish({
+                    delay: 400,
+                    animation: {opacity: 'show', height: 'show'},
+                    speed: 'fast',
+                    autoArrows: false
+                });
+
+            });
+                </script>
+
+                <nav id="nav" class="prl-navbar" role="navigation">
+                    <div class="nav-wrapper"> <div class='nav-container clearfix'>
+                            <ul class="sf-menu" id="sf-menu">
+                                <li class="menu_item-home current"><a href="index.php"><i class="fa fa-home"></i> Homepage</a>
+                                <li class="sf-mega-parent"><a href="index.php"><i class="fa fa-flag"></i> Mega 1</a>
+                                    <div class="sf-mega">
+                                        <div class="prl-grid prl-grid-divider">
+                                            <div class="prl-span-3">
+                                                <article class="prl-article">
+                                                    <a class="prl-thumbnail" href="#">
+                                                        <span class="prl-overlay">
+                                                            <img src="assets/images/_p/1.jpg" alt="Lorem ipsum dolor sit amet">
+                                                            <span class="prl-overlay-area o-video"></span>
+                                                        </span>
+                                                    </a>
+                                                    <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                                    <div class="prl-article-meta">
+                                                        <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                    </div>    
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                                </article>
+                                            </div>
+                                            <div class="prl-span-3">
+                                                <article class="prl-article">
+                                                    <a class="prl-thumbnail" href="#">
+                                                        <span class="prl-overlay">
+                                                            <img src="assets/images/_p/2.jpg" alt="Lorem ipsum dolor sit amet">
+                                                            <span class="prl-overlay-area o-video"></span>
+                                                        </span>
+                                                    </a>
+                                                    <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                                    <div class="prl-article-meta">
+                                                        <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                    </div>    
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                                </article>
+                                            </div>
+                                            <div class="prl-span-3">
+                                                <article class="prl-article">
+                                                    <a class="prl-thumbnail" href="#">
+                                                        <span class="prl-overlay">
+                                                            <img src="assets/images/_p/3.jpg" alt="Lorem ipsum dolor sit amet">
+                                                            <span class="prl-overlay-area o-video"></span>
+                                                        </span>
+                                                    </a>
+                                                    <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                                    <div class="prl-article-meta">
+                                                        <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                    </div>    
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                                </article>
+                                            </div>
+                                            <div class="prl-span-3">
+                                                <article class="prl-article">
+                                                    <a class="prl-thumbnail" href="#">
+                                                        <span class="prl-overlay">
+                                                            <img src="assets/images/_p/4.jpg" alt="Lorem ipsum dolor sit amet">
+                                                            <span class="prl-overlay-area o-video"></span>
+                                                        </span>
+                                                    </a>
+                                                    <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                                    <div class="prl-article-meta">
+                                                        <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                    </div>    
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                                </article>
+                                            </div>
+                                        </div>		</div>
+
+                                </li>
+                                <li class="sf-mega-parent"><a href="#"><i class="fa fa-flask"></i> Mega 2</a>
+                                    <div class="sf-mega">
+                                        <div class="prl-grid prl-grid-divider">
+                                            <div class="prl-span-3">
+                                                <ul class="prl-list prl-list-line sf-mega-list">
+                                                    <li><a href="">Sample item</a></li>
+                                                    <li><a href="">Sample item</a></li>
+                                                    <li><a href="">Sample item</a></li>
+                                                    <li><a href="">Sample item</a></li>
+                                                    <li><a href="">Sample item</a></li>
+                                                    <li><a href="">Sample item</a></li>
+
+                                                </ul>
+                                            </div>
+                                            <div class="prl-span-3">
+                                                <article class="prl-article">
+                                                    <a class="prl-thumbnail" href="#">
+                                                        <span class="prl-overlay">
+                                                            <img src="assets/images/_p/1.jpg" alt="Lorem ipsum dolor sit amet">
+                                                            <span class="prl-overlay-area o-video"></span>
+                                                        </span>
+                                                    </a>
+                                                    <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                                    <div class="prl-article-meta">
+                                                        <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                    </div>    
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                                </article>
+                                            </div>
+                                            <div class="prl-span-3">
+                                                <article class="prl-article">
+                                                    <a class="prl-thumbnail" href="#">
+                                                        <span class="prl-overlay">
+                                                            <img src="assets/images/_p/2.jpg" alt="Lorem ipsum dolor sit amet">
+                                                            <span class="prl-overlay-area o-video"></span>
+                                                        </span>
+                                                    </a>
+                                                    <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                                    <div class="prl-article-meta">
+                                                        <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                    </div>    
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                                </article>
+                                            </div>
+                                            <div class="prl-span-3">
+                                                <article class="prl-article">
+                                                    <a class="prl-thumbnail" href="#">
+                                                        <span class="prl-overlay">
+                                                            <img src="assets/images/_p/3.jpg" alt="Lorem ipsum dolor sit amet">
+                                                            <span class="prl-overlay-area o-video"></span>
+                                                        </span>
+                                                    </a>
+                                                    <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                                    <div class="prl-article-meta">
+                                                        <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                    </div>    
+                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                                </article>
+                                            </div>
+                                        </div>		</div>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i class="fa fa-file-text"></i> Articles</a>
+                                    <ul class="sf-list">
+                                        <li><a href="single.php">Article</a></li>
+                                        <li><a href="single-video.php">Article - video</a></li>
+                                        <li><a href="single-photo.php">Article - photo</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="#"><i class="fa fa-plane"></i> Categories</a>
+                                    <ul>
+                                        <li><a href="cat-list.php">Category - list</a></li>
+                                        <li><a href="cat-2.php">Category - 2</a></li>
+                                        <li><a href="cat-3.php">Category - 3</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="mason-3.php"><i class="fa fa-bolt"></i> Masonry</a>
+                                    <ul>
+                                        <li><a href="mason-2.php">Masonry 2</a></li>
+                                        <li><a href="mason-3.php">Masonry 3</a></li>
+                                        <li><a href="mason-3-fw.php">Masonry 3 full width</a></li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <a href="contact.php"><i class="fa fa-envelope"></i> Contact</a>
+                                </li>	
+
+                            </ul>
+
+                            <a href="#" class="prl-nav-toggle prl-nav-menu" title="Nav" data-prl-offcanvas="{target:'#offcanvas'}"></a>
+                            <div class="prl-nav-flip">
+                                <a href="#" class="prl-nav-toggle prl-nav-toggle-search" title="Search" data-prl-offcanvas="{target:'#offcanvas-search'}"></a>
+                            </div>
+
+
+                        </div>	
+                    </div><!-- nav-wrapper -->
+
+                </nav>
+
+                <!-- OFF CANVAS -->
+
+                <div id="offcanvas-search" class="prl-offcanvas">
+                    <div class="prl-offcanvas-bar prl-offcanvas-bar-flip">
+                        <form class="prl-search">
+                            <input class="prl-search-field" type="search" placeholder="search...">
+                        </form>
+                    </div>
+                </div>
+
+                <div id="offcanvas" class="prl-offcanvas">
+                    <div class="prl-offcanvas-bar">
+
+
+                        <nav class="side-nav">
+                            <ul class="nav-list">
+                                <li class="nav-item">
+                                    <a href="index.php">Homepage</a>
+                                    <ul class="nav-submenu">
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-1">Submenu item 1</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-2">Submenu item 2</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-3">Submenu item 3</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-4">Submenu item 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="?=home">Home</a>
+                                    <ul class="nav-submenu">
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-1">Submenu item 1</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-2">Submenu item 2</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-3">Submenu item 3</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-4">Submenu item 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="?=about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="?=services">Services</a>
+                                    <ul class="nav-submenu">
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-1">Submenu item 1</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-2">Submenu item 2</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-3">Submenu item 3</a>
+                                        </li>
+                                        <li class="nav-submenu-item">
+                                            <a href="?=submenu-4">Submenu item 4</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="?=portfolio">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="?=testimonials">Testimonials</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="?=contact">Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div></div>    </div>
+
+
+
+            <div class="prl-container">
+
+                <div class="prl-grid prl-grid-divider">
+                    <section id="main" class="prl-span-9"> 
+                        <div id="sliderTab">
+                            <div id="mainFlexslider" class="slider_content flexslider" >
+                                <ul class="slides">
+                                    <li>
+                                        <article> 
+                                            <div class="slider_title">
+                                                <div class="slider-post-meta"><span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span> <a href="#"><i class="fa fa-comment-o"></i> 2</a>
+                                                </div>
+                                                <h2><a href="single.php">Nulla ullamcorper tellus suscipit quam tincidunt</a></h2>
+                                            </div>
+                                            <a href="single.php"><img src="assets/images/_slider/1.jpg" alt="slider"></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article> 
+                                            <div class="slider_title">
+                                                <div class="slider-post-meta"><span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span> <a href="#"><i class="fa fa-comment-o"></i> 4</a>
+                                                </div>
+                                                <h2><a href="single.php">Pellentesque erat arcu, pulvinar vel varius blandit, pretium vel arcu</a></h2>
+                                            </div>
+                                            <a href="single.php"><img src="assets/images/_slider/2.jpg" alt="slider"></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article> 
+                                            <div class="slider_title">
+                                                <div class="slider-post-meta"><span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span> <a href="#"><i class="fa fa-comment-o"></i> 6</a>
+                                                </div>
+                                                <h2><a href="single.php">Lorem ipsum dolor sit amet, consectetur</a></h2>
+                                            </div>
+                                            <a href="single.php"><img src="assets/images/_slider/3.jpg" alt="slider"></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article> 
+                                            <div class="slider_title">
+                                                <div class="slider-post-meta"><span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span> <a href="#"><i class="fa fa-comment-o"></i> 8</a>
+                                                </div>
+                                                <h2><a href="single.php">Etiam sodales massa sem, quis vulputate lectus lobortis ac</a></h2>
+                                            </div>
+                                            <a href="single.php"><img src="assets/images/_slider/4.jpg" alt="slider"></a>
+                                        </article>
+                                    </li>
+                                    <li>
+                                        <article> 
+                                            <div class="slider_title">
+                                                <div class="slider-post-meta"><span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span> <a href="#"><i class="fa fa-comment-o"></i> 10</a>
+                                                </div>
+                                                <h2><a href="single.php">Maecenas sed odio eu felis semper faucibus</a></h2>
+                                            </div>
+                                            <a href="single.php"><img src="assets/images/_slider/5.jpg" alt="slider"></a>
+                                        </article>
+                                    </li>
+
+                                </ul>
+
+
+                                <script type="text/javascript">
+                                    $(function() {
+                                        $('#mainFlexslider').flexslider({
+                                            animation: "fade",
+                                            prevText: '<i class="fa fa-angle-left icon-large"></i>',
+                                            nextText: '<i class="fa fa-angle-right icon-large"></i>',
+                                            manualControls: "#main-slider-control-nav li"
+                                        });
+                                    });
+                                </script>
+
+                            </div>
+                            <div class="slider_tabs">
+                                <ul class="tabs" id="main-slider-control-nav">
+                                    <li><div class="tab_content"><a href="#">Nulla ullamcorper tellus suscipit quam tincidunt</a></div></li>
+                                    <li><div class="tab_content"><a href="#">Pellentesque erat arcu, pulvinar vel varius blandit, pretium vel arcu</a></div></li>
+                                    <li><div class="tab_content"><a href="#">Lorem ipsum dolor sit amet, consectetur</a></div></li>
+                                    <li><div class="tab_content"><a href="#">Etiam sodales massa sem, quis vulputate lectus lobortis ac</a></div></li>
+                                    <li><div class="tab_content"><a href="#">Maecenas sed odio eu felis semper faucibus</a></div></li>
+                                </ul>
+                            </div>
+                            <div class="clear"></div>
+                        </div>            <div class="prl-panel homepage-widget-tab">
+
+                            <ul class="prl-tab" data-prl-tab="{connect:'#content1'}">
+                                <li class="prl-active"><a href="">MOST RATING POSTS</a></li>
+                                <li><a href="">MOST VIEWED POSTS</a></li>
+                                <li><a href="">MOST POPULAR POSTS</a></li>
+                            </ul>
+
+
+                            <ul id="content1" class="prl-switcher">
+                                <li>
+
+                                    <div class="prl-grid prl-grid-divider">
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/1.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta clearfix">
+                                                    <span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span>
+
+                                                    <i class="fa fa-calendar-o"></i> Nov 19th, 2013
+
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/2.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta clearfix">
+                                                    <span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span>
+
+                                                    <i class="fa fa-calendar-o"></i> Nov 19th, 2013
+
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/3.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta clearfix">
+                                                    <span class="prl-post-rating">
+                                                        <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                                    </span>
+
+                                                    <i class="fa fa-calendar-o"></i> Nov 19th, 2013
+
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+
+                                    </div></li>
+                                <li>
+
+                                    <div class="prl-grid prl-grid-divider">
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/4.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/5.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/6.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                    </div></li>
+
+                                <li><div class="prl-grid prl-grid-divider">
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/7.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/8.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                        <div class="prl-span-4">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/9.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>
+                                    </div></li>
+                            </ul>
+
+                        </div>                <div class="prl-panel">
+                            <h5 class="prl-block-title sienna">Entertaiment <span class="prl-block-title-link right"><a href="">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+                            <div class="prl-grid prl-grid-divider">
+
+                                <div class="prl-span-8">
+
+                                    <article class="prl-article">
+                                        <a class="prl-thumbnail" href="">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/4.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h2 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-cyan">Photo</span></h2> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+                                    <hr class="prl-article-divider">
+
+                                    <ul class="prl-list prl-list-line prl-list-arrow">
+                                        <li><h4><a href="">This modifier may be useful for for list items with multiple lines of text.</a></h4></li>
+                                        <li><h4><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4></li>
+                                        <li><h4><a href="">Ut enim ad minim veniam, quis nostrud exercitation ullamco.</a></h4></li>
+                                        <li><h4><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4></li>
+                                    </ul>
+
+                                </div>
+                                <div class="prl-span-4">
+
+                                    <article class="prl-article prl-panel">
+                                        <a class="prl-thumbnail" href="">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/5.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+
+                                    <article class="prl-article prl-panel">
+                                        <a class="prl-thumbnail" href="">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/6.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+                                </div>
+
+                            </div>
+                        </div>                
+                        <div class="prl-panel">
+                            <h5 class="prl-block-title alizarin">Photography  <span class="prl-block-title-link right"><a href="">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+                            <div class="prl-grid prl-grid-divider">
+                                <div class="prl-span-8">
+                                    <div class="prl-grid">
+                                        <div class="prl-span-6">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/2.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                            </article>
+                                        </div>	
+                                        <div class="prl-span-6">
+                                            <article class="prl-article">
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-cyan">Photo</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>     
+                                    </div>
+
+
+                                </div>
+                                <div class="prl-span-4">
+                                    <ul class="prl-list prl-list-line prl-list-arrow">
+                                        <li><h4><a href="">This modifier may be useful for for list items with multiple lines of text.</a></h4></li>
+                                        <li><h4><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4></li>
+                                        <li><h4><a href="">Ut enim ad minim veniam, quis nostrud exercitation ullamco.</a></h4></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>                <div class="prl-panel">
+                            <h5 class="prl-block-title">Finance  <span class="prl-block-title-link right"><a href="">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+                            <div class="prl-grid prl-grid-divider">
+                                <div class="prl-span-8">
+                                    <div class="prl-grid">
+                                        <div class="prl-span-6">
+                                            <article class="prl-article">
+                                                <a class="prl-thumbnail" href="#">
+                                                    <span class="prl-overlay">
+                                                        <img src="assets/images/_p/3.jpg" alt="Lorem ipsum dolor sit amet">
+                                                        <span class="prl-overlay-area o-video"></span>
+                                                    </span>
+                                                </a>
+                                            </article>
+                                        </div>	
+                                        <div class="prl-span-6">
+                                            <article class="prl-article">
+                                                <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-green">Video</span></h3> 
+                                                <div class="prl-article-meta">
+                                                    <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                                </div>    
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                            </article>
+                                        </div>     
+                                    </div>
+
+
+                                </div>
+                                <div class="prl-span-4">
+                                    <ul class="prl-list prl-list-line prl-list-arrow">
+                                        <li><h4><a href="">This modifier may be useful for for list items with multiple lines of text.</a></h4></li>
+                                        <li><h4><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4></li>
+                                        <li><h4><a href="">Ut enim ad minim veniam, quis nostrud exercitation ullamco.</a></h4></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>               <div class="prl-panel ads-default"><div class="a90">790 x 90</div></div> 
+                        <div class="prl-panel">
+
+                            <div class="prl-grid prl-grid-divider">
+                                <div class="prl-span-4">
+                                    <h5 class="prl-block-title amber">MUSIC  <span class="prl-block-title-link right"><a href="">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+                                    <article class="prl-article">
+                                        <a class="prl-thumbnail" href="#">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/1.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+
+                                </div>
+                                <div class="prl-span-4">
+                                    <h5 class="prl-block-title amber">MUSIC  <span class="prl-block-title-link right"><a href="">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+                                    <article class="prl-article">
+                                        <a class="prl-thumbnail" href="#">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/2.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+
+                                </div>
+                                <div class="prl-span-4">
+                                    <h5 class="prl-block-title amber">MUSIC  <span class="prl-block-title-link right"><a href="">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+                                    <article class="prl-article">
+                                        <a class="prl-thumbnail" href="#">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/3.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-red">Video</span></h3> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+
+                                </div>
+
+                            </div>
+                        </div>                <div class="prl-panel">
+                            <h5 class="prl-block-title sienna">Entertaiment <span class="prl-block-title-link right"><a href="">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+                            <div class="prl-grid prl-grid-divider">
+
+
+                                <div class="prl-span-4">
+
+                                    <article class="prl-article prl-panel">
+                                        <a class="prl-thumbnail" href="">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/5.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+
+                                    <article class="prl-article prl-panel">
+                                        <a class="prl-thumbnail" href="">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/6.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h3 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h3> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+                                </div>
+
+                                <div class="prl-span-8">
+
+                                    <article class="prl-article">
+                                        <a class="prl-thumbnail" href="">
+                                            <span class="prl-overlay">
+                                                <img src="assets/images/_p/4.jpg" alt="Lorem ipsum dolor sit amet">
+                                                <span class="prl-overlay-area o-video"></span>
+                                            </span>
+                                        </a>
+                                        <h2 class="prl-article-title"><a href="">Praesent lectus orci, volutpat ultrices</a> <span class="prl-badge prl-badge-warning">Video</span></h2> 
+                                        <div class="prl-article-meta">
+                                            <i class="fa fa-calendar-o"></i> Nov 18th, 2013&nbsp;&nbsp;<i class="fa fa-comment-o"></i> 23
+                                        </div>    
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus orci, volutpat ultrices porta ac, ultricies eget sem.</p>
+                                    </article>
+                                    <hr class="prl-article-divider">
+
+                                    <ul class="prl-list prl-list-line prl-list-arrow">
+                                        <li><h4><a href="">This modifier may be useful for for list items with multiple lines of text.</a></h4></li>
+                                        <li><h4><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4></li>
+                                        <li><h4><a href="">Ut enim ad minim veniam, quis nostrud exercitation ullamco.</a></h4></li>
+                                        <li><h4><a href="">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</a></h4></li>
+                                    </ul>
+
+                                </div>
+
+                            </div>
+                        </div>           
+                    </section>
+                    <aside id="sidebar" class="prl-span-3">
+
+                        <div class="widget prl-panel">
+                            <script>
+                                $(function() {
+                                    $("#accordion").jAccordion();
+                                });
+                            </script>
+                            <div id="accordion" class="prl-accordion">
+                                <section>
+                                    <a href="#acc1" id="acc1" class="head">MOST RECENT VIDEO</a>
+                                    <div class="acc-content">
+                                        <iframe src="//player.vimeo.com/video/67547541" width="500" height="281"></iframe>
+                                        <h5><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit</a></h5>
+                                    </div>
+                                </section>
+                                <section>
+                                    <a href="#acc2" id="acc2" class="head">Accordion 2</a>
+                                    <div class="acc-content">
+                                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex. Lorem ipsum dolor sit amet, consectetur 
+                                            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+                                            esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+                                            mollit anim.</p></div>
+                                </section>
+                                <section>
+                                    <a href="#acc3" id="acc3" class="head">Accordion 3</a>
+                                    <div class="acc-content"><p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                                            nostrud exercitation ullamco laboris nisi ut aliquip ex. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+                                            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in 
+                                            reprehenderit.</p></div>
+                                </section>
+                            </div>
+                        </div>    
+
+                        <div class="widget widget-recent-post prl-panel">
+                            <h5 class="prl-block-title">Recent posts</h5>	
+
+                            <ul class="prl-list prl-list-line">
+                                <li>
+                                    <article class="clearfix">
+                                        <a href="single.php" class="prl-thumbnail"><img src="assets/images/_small/1.jpg" width="60" height="60" alt="Praesent lectus orci"></a>
+                                        <div>
+                                            <h4><a href="single.php" title="">Nulla ullamcorper tellus suscipit quam tincidunt</a></h4>
+                                            <!--<span class="prl-article-meta prl-clearfix"><i class="fa fa-calendar-o"></i> Nov 13th, 2013</span>-->
+                                        </div>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article class="clearfix">
+                                        <a href="single.php" class="prl-thumbnail"><img src="assets/images/_small/2.jpg" width="60" height="60" alt="Praesent lectus orci"></a>
+                                        <div>
+                                            <h4><a href="single.php" title="">Pellentesque erat arcu, pulvinar vel varius blandit, pretium vel arcu</a></h4>
+                                            <!--<span class="prl-article-meta prl-clearfix"><i class="fa fa-calendar-o"></i> Nov 13th, 2013</span>-->
+                                        </div>
+                                    </article>
+                                </li>
+                                <li>
+                                    <article class="clearfix">
+                                        <a href="single.php" class="prl-thumbnail"><img src="assets/images/_small/3.jpg" width="60" height="60" alt="Praesent lectus orci"></a>
+                                        <div>
+                                            <h4><a href="single.php" title="">Lorem ipsum dolor sit amet, consectetur</a></h4>
+                                            <!--<span class="prl-article-meta prl-clearfix"><i class="fa fa-calendar-o"></i> Nov 13th, 2013</span>-->
+                                        </div>
+                                    </article>
+                                </li>
+                            </ul>
+
+                        </div>		<div id="login-3" class="widget widget-login prl-panel">
+                            <h5 class="prl-block-title">Login</h5>
+
+                            <div>
+                                <form class="prl-form">
+                                    <div class="prl-form-row prl-login-username">
+                                        <input type="text" placeholder="Username" class="prl-width-1-1">
+                                    </div>
+                                    <div class="prl-form-row prl-login-password">
+                                        <input type="password" placeholder="Password" class="prl-width-1-1">
+                                    </div>	
+                                    <div class="prl-form-row">
+                                        <button class="prl-button prl-button-primary" type="submit">Login</button>
+                                        <label for="form-s-mix1" class="prl-form-help-inline"><input type="checkbox" id="form-s-mix1" checked="checked"> Remember me</label>
+                                    </div>
+                                    <div class="prl-form-row">
+                                        <a href="#">Lost your password?</a>
+                                    </div>
+                                </form>	
+                            </div>
+
+                        </div>
+                        <div id="post-pic-widget" class="widget photos-widget prl-panel">	
+                            <h5 class="prl-block-title">Article photos</h5>
+
+                            <div class="pt-wrapper">
+                                <div class="pt-inner prl-clearfix">
+                                    <a href="single.php" ><img src="assets/images/_small/1.jpg" alt="Lorem ipsum dolor sit amet" /></a>
+                                    <a href="single.php" ><img src="assets/images/_small/2.jpg" alt="Lorem ipsum dolor sit amet" /></a>
+                                    <a href="single.php" ><img src="assets/images/_small/3.jpg" alt="Lorem ipsum dolor sit amet" /></a>
+                                    <a href="single.php" ><img src="assets/images/_small/4.jpg" alt="Lorem ipsum dolor sit amet" /></a>
+                                    <a href="single.php" ><img src="assets/images/_small/5.jpg" alt="Lorem ipsum dolor sit amet" /></a>
+                                    <a href="single.php" ><img src="assets/images/_small/6.jpg" alt="Lorem ipsum dolor sit amet" /></a>
+                                </div>
+                            </div>
+                        </div>	
+                        <div id="social-widget-1" class="widget social-widget prl-panel">		<!-- BEGIN WIDGET -->
+                            <h5 class="prl-block-title amber">Social Network</h5>
+                            <p>Were this world an endless plain, and by sailing eastward we could for ever reach new distances</p>
+                            <div class="sw-wrapper">
+                                <div class="sw-inner prl-clearfix">
+                                    <a href="#" class="fa fa-facebook" title="Facebook" data-prl-tooltip></a>
+                                    <a href="https://twitter.com/#" class="fa fa-twitter" title="Twitter" data-prl-tooltip></a>
+                                    <a href="#" class="fa fa-rss" title="RSS Feed" data-prl-tooltip></a>
+                                    <a href="http://www.flickr.com/photos/#" class="fa fa-flickr" title="Flickr" data-prl-tooltip></a>
+                                    <a href="http://www.youtube.com/#" class="fa fa-youtube" title="Youtube" data-prl-tooltip></a>
+                                    <a href="http://vimeo.com/#" class="fa fa-vimeo-square" title="Vimeo" data-prl-tooltip></a>
+                                    <a href="#" class="fa fa-linkedin" title="Linkedin" data-prl-tooltip></a>
+                                    <a href="#" class="fa fa-google-plus" title="Google plus" data-prl-tooltip></a>
+                                    <a href="http://pinterest.com/#" class="fa fa-pinterest" title="Pinterest" data-prl-tooltip></a>
+                                    <a href="http://instagram.com/#" class="fa fa-instagram" title="Instagram" data-prl-tooltip></a>
+                                </div>
+                            </div>		
+                        </div>    
+                        <div id="tag_cloud-2" class="widget widget_tag_cloud prl-panel"><h5 class="prl-block-title">Tags</h5><div class="tagcloud"><a href='http://www.presslayer.com/?tag=artwork' class='tag-link-6' title='2 topics' style='font-size: 16.4pt;'>artwork</a>
+                                <a href='http://www.presslayer.com/?tag=photo' class='tag-link-7' title='2 topics' style='font-size: 16.4pt;'>Photo</a>
+                                <a href='http://www.presslayer.com/?tag=video' class='tag-link-9' title='3 topics' style='font-size: 22pt;'>Video</a>
+                                <a href='http://www.presslayer.com/?tag=videos' class='tag-link-4' title='1 topic' style='font-size: 8pt;'>Videos</a>
+                                <a href='http://www.presslayer.com/?tag=videos' class='tag-link-3' title='1 topic' style='font-size: 8pt;'>Music</a>
+                                <a href='http://www.presslayer.com/?tag=videos' class='tag-link-3' title='1 topic' style='font-size: 8pt;'>HTML5</a>
+                                <a href='http://www.presslayer.com/?tag=videos' class='tag-link-3' title='1 topic' style='font-size: 8pt;'>CSS3</a>
+                                <a href='http://www.presslayer.com/?tag=videos' class='tag-link-3' title='1 topic' style='font-size: 8pt;'>Web Design</a>
+                            </div>
+
+                        </div>
+                        <div id="ins-widget-4" class="widget photos-widget prl-panel">	
+                            <h5 class="prl-block-title">Instagram</h5>
+                            <script>
+                                $(function() {
+                                    $("#instagram").jqinstapics({
+                                        "user_id": "294495709",
+                                        "access_token": "294495709.5b9e1e6.8b935342cb424bcbb14d38b0cacebe3b",
+                                        "count": 6
+                                    });
+                                });
+                            </script>
+                            <div class="pt-wrapper">
+                                <div id="instagram" class="pt-inner prl-clearfix"></div>
+                            </div>
+                        </div>		<div id="search-3" class="widget widget_search prl-panel">
+                            <h5 class="prl-block-title">Search</h5>
+                            <form role="search" method="get" id="searchform" action="#" class="prl-form" >
+                                <div><label class="screen-reader-text" for="s">Search for:</label>
+                                    <input type="text" value="" name="s" id="s" />
+                                    <input type="submit" id="searchsubmit" value="Search" />
+                                </div>
+                            </form>
+                        </div>	
+                        <div id="nav_menu-2" class="widget widget_nav_menu prl-panel"><h5 class="prl-block-title">Custom menu</h5><div class="menu-navigation-container"><ul id="menu-navigation" class="menu"><li class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-1129"><a href="http://www.presslayer.com/"><i class="fa fa-home"></i> Homepage</a></li>
+                                    <li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-1134"><a href="http://www.presslayer.com/?cat=3"><i class="fa  fa-flask"></i> Photography</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1131"><a href="#"><i class="fa fa-heart"></i> Heart</a>
+
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1132"><a href="#"><i class="fa fa-picture-o"></i> Photo</a></li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1133"><a href="#"><i class="fa fa-envelope"></i> Contact us</a></li>
+                                </ul></div></div>
+                        <div id="calendar-2" class="widget widget_calendar prl-panel">
+                            <h5 class="prl-block-title">Calendar</h5>
+                            <div id="calendar_wrap">
+                                <table id="wp-calendar">
+                                    <caption>May 2013</caption>
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" title="Monday">M</th>
+                                            <th scope="col" title="Tuesday">T</th>
+                                            <th scope="col" title="Wednesday">W</th>
+                                            <th scope="col" title="Thursday">T</th>
+                                            <th scope="col" title="Friday">F</th>
+                                            <th scope="col" title="Saturday">S</th>
+                                            <th scope="col" title="Sunday">S</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tfoot>
+                                        <tr>
+                                            <td colspan="3" id="prev"><a href="http://www.presslayer.com/?m=201207" title="View posts for July 2012">&laquo; Jul</a></td>
+                                            <td class="pad">&nbsp;</td>
+                                            <td colspan="3" id="next" class="pad">&nbsp;</td>
+                                        </tr>
+                                    </tfoot>
+
+                                    <tbody>
+                                        <tr>
+                                            <td colspan="2" class="pad">&nbsp;</td><td id="today">1</td><td>2</td><td>3</td><td>4</td><td>5</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td><td>7</td><td>8</td><td>9</td><td>10</td><td>11</td><td>12</td>
+                                        </tr>
+                                        <tr>
+                                            <td>13</td><td>14</td><td>15</td><td>16</td><td>17</td><td>18</td><td>19</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20</td><td>21</td><td>22</td><td>23</td><td>24</td><td>25</td><td>26</td>
+                                        </tr>
+                                        <tr>
+                                            <td>27</td><td>28</td><td>29</td><td>30</td><td>31</td>
+                                            <td class="pad" colspan="2">&nbsp;</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+
+                            </div>
+
+                        </div>	
+                        <div id="categories-3" class="widget widget_categories prl-panel"><h5 class="prl-block-title">Categories</h5><ul>
+                                <li class="cat-item cat-item-2"><a href="http://www.presslayer.com/?cat=2" title="View all posts filed under Design">Design</a>
+                                </li>
+                                <li class="cat-item cat-item-3"><a href="http://www.presslayer.com/?cat=3" title="View all posts filed under Photography">Photography</a>
+                                </li>
+                                <li class="cat-item cat-item-12"><a href="http://www.presslayer.com/?cat=12" title="View all posts filed under Slider">Slider</a>
+                                </li>
+                                <li class="cat-item cat-item-4"><a href="http://www.presslayer.com/?cat=4" title="View all posts filed under Videos">Videos</a>
+                                </li>
+                                <li class="cat-item cat-item-5"><a href="http://www.presslayer.com/?cat=5" title="View all posts filed under Wordpress">Wordpress</a>
+                                </li>
+                                <li class="cat-item cat-item-12"><a href="http://www.presslayer.com/?cat=12" title="View all posts filed under Slider">Slider</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+
+
+                        <div id="facebook-like-widget-2" class="widget facebook-widget prl-panel"><h5 class="prl-block-title">Facebook</h5>
+                            <div class="fw-wrapper">
+                                <div class="fw-inner">
+                                    <iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fenvato&amp;width=500&amp;colorscheme=light&amp;border_color=white&amp;show_faces=true&amp;stream=false&amp;header=false&amp;height=260" id="facebook-iframe" ></iframe>
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div id="archives-3" class="widget widget-weather prl-panel">
+                            <h5 class="prl-block-title">Weather</h5>
+                            <div class="wt_wrapper">
+                                <div class="today">
+                                    <div class="clearfix">
+                                        <div class="left">
+                                            <h3>TODAY</h3>
+                                            <p class="degree">32<i class="wi-degrees"></i></p>
+                                            <p><strong>Kuala Lumpur</strong></p>
+                                        </div>
+                                        <div class="right"><div class="today_icon"><i class="wi-day-lightning"></i></div></div>
+                                    </div>
+                                    <ul class="info_list">
+                                        <li><strong><span>Overcast</span></strong> <i class="wi-thermometer"></i> 31<i class="wi-degrees"></i> / 34<i class="wi-degrees"></i></li>
+                                        <li><span><i class="fa fa-umbrella"></i> 49%</span> <span><i class="wi-strong-wind"></i> 12.87km/h </span><i class="fa fa-compass"></i> NW</li>
+                                    </ul>
+                                </div>	
+                                <hr class="prl-divider">
+                                <div class="next_days clearfix">
+                                    <div class="next_days_item">
+                                        <p><strong>FRI</strong></p>
+                                        <p><i class="wi-day-sunny-overcast"></i></p>
+                                        30<i class="wi-degrees"></i> / 35<i class="wi-degrees"></i>
+                                    </div>
+                                    <div class="next_days_item">
+                                        <p><strong>SAT</strong></p>
+                                        <p><i class="wi-lightning"></i></p>
+                                        30<i class="wi-degrees"></i> / 35<i class="wi-degrees"></i>
+                                    </div>
+                                    <div class="next_days_item last">
+                                        <p><strong>SUN</strong></p>
+                                        <p><i class="wi-cloudy"></i></p>
+                                        30<i class="wi-degrees"></i> / 35<i class="wi-degrees"></i>
+                                    </div>
+
+                                </div>
+
+                            </div>    
+                        </div>     
+
+
+
+
+
+                    </aside>
+                </div><!--.prl-grid-->
+            </div>
+
+
+            <footer id="footer" role="contentinfo">
+                <div class="footer-widget">
+                    <div class="prl-container">
+                        <div class="prl-grid prl-grid-divider">
+                            <div class="prl-span-3">
+                                <div class="widget widget-recent-post prl-panel">
+                                    <h5 class="prl-block-title">Recent posts</h5>	
+                                    <ul class="prl-list prl-list-line">
+                                        <li>
+                                            <article class="prl-clearfix">
+                                                <a href="single.php" class="prl-thumbnail"><img src="assets/images/_small/1.jpg" width="60" height="60" alt=""></a>
+                                                <div>
+                                                    <h4><a href="single.php" title="">Nulla ullamcorper tellus suscipit quam tincidunt</a></h4>
+
+                                                </div>
+                                            </article>
+                                        </li>
+                                        <li>
+                                            <article class="prl-clearfix">
+                                                <a href="single.php" class="prl-thumbnail"><img src="assets/images/_small/2.jpg" width="60" height="60" alt=""></a>
+                                                <div>
+                                                    <h4><a href="single.php" title="">Pellentesque erat arcu, pulvinar vel varius blandit, pretium vel arcu</a></h4>
+
+                                                </div>
+                                            </article>
+                                        </li>
+                                        <li>
+                                            <article class="prl-clearfix">
+                                                <a href="single.php" class="prl-thumbnail"><img src="assets/images/_small/3.jpg" width="60" height="60" alt=""></a>
+                                                <div>
+                                                    <h4><a href="single.php" title="">Lorem ipsum dolor sit amet, consectetur</a></h4>
+
+                                                </div>
+                                            </article>
+                                        </li>
+                                    </ul>
+                                </div>						</div>
+                            <div class="prl-span-3">
+                                <div id="social-widget-2" class="widget social-widget prl-panel">		<!-- BEGIN WIDGET -->
+                                    <h5 class="prl-block-title carot">Social Network</h5>
+                                    <div class="sw-wrapper">
+                                        <div class="sw-inner prl-clearfix">
+                                            <a href="#" class="fa fa-facebook" title="Facebook" data-prl-tooltip></a>
+                                            <a href="https://twitter.com/#" class="fa fa-twitter" title="Twitter" data-prl-tooltip></a>
+                                            <a href="#" class="fa fa-rss" title="RSS Feed" data-prl-tooltip></a>
+                                            <a href="http://www.flickr.com/photos/#" class="fa fa-flickr" title="Flickr" data-prl-tooltip></a>
+                                            <a href="http://www.youtube.com/#" class="fa fa-youtube" title="Youtube" data-prl-tooltip></a>
+                                            <a href="http://vimeo.com/#" class="fa fa-vimeo-square" title="Vimeo" data-prl-tooltip></a>
+                                            <a href="#" class="fa fa-linkedin" title="Linkedin" data-prl-tooltip></a>
+                                            <a href="#" class="fa fa-google-plus" title="Google plus" data-prl-tooltip></a>
+                                            <a href="http://pinterest.com/#" class="fa fa-pinterest" title="Pinterest" data-prl-tooltip></a>
+                                            <a href="http://instagram.com/#" class="fa fa-instagram" title="Instagram" data-prl-tooltip></a>
+                                        </div></div></div>						<div class="widget widget_newsletter prl-panel">
+                                    <h5 class="prl-block-title">Newsletter</h5>
+                                    <p>Were this world an endless plain, and by sailing eastward we could for ever reach new distances</p>
+                                    <form class="prl-form">
+                                        <fieldset>
+                                            <div class="prl-form-row prl-newsletter-email"><input type="text" placeholder="" class="prl-width-1-1"></div>
+                                            <div class="prl-form-row"><button class="prl-button prl-button-newsletter" type="submit">Subscribe</button></div>
+                                        </fieldset>
+                                    </form>
+                                </div>					</div>
+                            <div class="prl-span-3">
+                                <div id="flickr-widget-4" class="widget photos-widget prl-panel">	
+                                    <h5 class="prl-block-title violet">Flickr</h5>
+                                    <script>
+                                        $(function() {
+                                            $('#basicuse').jflickrfeed({
+                                                limit: 12,
+                                                qstrings: {
+                                                    id: '71865026@N00'
+                                                },
+                                                itemTemplate: '<a href="{{link}}" target="_blank" ><img src="{{image_s}}" alt="{{title}}" /></a>'
+                                            });
+                                        });
+                                    </script>
+                                    <div class="pt-wrapper">
+                                        <div id="basicuse" class='pt-inner prl-clearfix'></div>
+                                    </div>
+
+                                </div>					</div>
+                            <div class="prl-span-3">
+                                <div id="tweets-widget-2" class="widget twitter_widget prl-panel">
+                                    <h5 class="prl-block-title">Tweets from @PressLayer</h5>
+                                    <ul id="twitter_list_tweets-widget-2" class="prl-list prl-list-line">
+                                        <li>Freebie Friday: Free Marketplace Files for May&nbsp;<a href="http://t.co/ovNcdbkQgm">http://t.co/ovNcdbkQgm</a> <em>&mdash; 3 hours ago</em></li>
+                                        <li>Outstanding New Marketplace Items: ThemeForest and 3DOcean<a href="http://t.co/cEW6KG136I">http://t.co/cEW6KG136I</a> <em>&mdash; 1 day ago</em></li>
+                                        <li>@<a href="http://twitter.com/skjreilly">skjreilly</a>&nbsp;thanks for bringing this to our attention. We will be in touch with the Author about this. ^TC <em>&mdash; 1 day ago</em></li>
+                                    </ul>
+
+                                    <div class="tw_btn">
+                                        <a href="https://twitter.com/PressLayer" class="twitter-follow-button" data-show-count="false">Follow @PressLayer</a>
+                                        <script>!function(d, s, id) {
+                                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                                if (!d.getElementById(id)) {
+                                                    js = d.createElement(s);
+                                                    js.id = id;
+                                                    js.src = p + '://platform.twitter.com/widgets.js';
+                                                    fjs.parentNode.insertBefore(js, fjs);
+                                                }
+                                            }(document, 'script', 'twitter-wjs');</script>
+                                    </div>
+
+                                </div>					</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="prl-container">
+                        <div class="left">
+                            &copy; 2014 by <a href="">ORIGINAL</a> | Just another WordPres site!
+                        </div>
+                        <div class="right">
+                            Designed by <a href="">PressLayer</a>
+                        </div>
+                    </div>
+                </div><!-- .copyright -->
+
+            </footer><!-- #footer -->
+
+        </div><!-- .site-wrapper -->
+        <a id="toTop" href="#"><i class="fa fa-long-arrow-up"></i></a>
+        <script src="assets/js/superfish.js"></script>
+        <script src="assets/js/jflickrfeed.min.js"></script>
+        <script src="assets/js/jqinstapics.min.js"></script>
+        <script src="assets/js/jquery.jAccordion.js"></script>
+        <script src="assets/js/jquery.jTab.js"></script>
+        <script src="assets/flexslider/jquery.flexslider-min.js"></script>
+        <script src="assets/js/jquery.fitvids.js"></script>
+        <script src="assets/js/jquery.masonry.min.js"></script>
+        <script src="assets/js/jquery.gmap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+    </body>
+</html>       
