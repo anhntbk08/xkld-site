@@ -69,6 +69,7 @@ directives.directive('orderListDirective', ['GeneralService', 'SERVICE_URL', '$s
 					for (var ii in temp){
 						temp[ii].post_content = $sce.trustAsHtml(temp[ii].post_content);
 						temp[ii].post_link = temp[ii].guid.split("?")[1];
+						temp[ii].post_img = uploaded_img_url + temp[ii].post_img;
 					}
 					$scope.articles = temp;
 				});
@@ -98,6 +99,7 @@ directives.directive('orderHightLightBottomDirective', ['GeneralService', 'SERVI
 					for (var ii in temp){
 						temp[ii].post_content = $sce.trustAsHtml(temp[ii].post_content);
 						temp[ii].post_link = temp[ii].guid.split("?")[1];
+						temp[ii].post_img = uploaded_img_url + temp[ii].post_img;
 					}
 					if (!temp)
 						temp = [{}]

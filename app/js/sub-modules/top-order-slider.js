@@ -10,6 +10,7 @@ controller('OrderSliderController', ['$scope', 'GeneralService', 'SERVICE_URL', 
 			var defaultUrl = "assets/images/_slider/{{$index}}.jpg";
             for (var ii in temp){
 				temp[ii].post_link = temp[ii].guid.split("?")[1];
+				temp[ii].post_img = uploaded_img_url + temp[ii].post_img;
 				
 			}
 			$scope.articles = temp;
