@@ -12,7 +12,8 @@ angular.module('App', [
   "SideBar"
 ]).
         
-config(['$routeProvider', '$httpProvider', function($routeProvider, $httpProvider) {
+config(['$routeProvider', '$httpProvider', '$locationProvider', function($routeProvider, $httpProvider, $locationProvider) {
+  $locationProvider.hashPrefix('!');
   $routeProvider.when('/home', {templateUrl: 'partials/home.html', controller: 'HomeController'});
   $routeProvider.when('/intro', {templateUrl: 'partials/intro.html', controller: 'StaticPageController'});
   $routeProvider.when('/category', {templateUrl: 'partials/category.html', controller: 'CategoryController'});

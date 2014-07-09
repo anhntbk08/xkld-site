@@ -1,7 +1,7 @@
 'use strict';
 var server_base_url = "http://localhost/out_project/xkld-site/service/index.php/";
 var client_base_url = "http://localhost/out_project/xkld-site/app/";
-
+var uploaded_img_url = "http://localhost/out_project/xkld-site/admin/wp-content/uploads/"
 // Declare app level module which depends on 
 angular.module('config',[])
 

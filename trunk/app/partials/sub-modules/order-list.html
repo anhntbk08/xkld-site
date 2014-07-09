@@ -1,4 +1,4 @@
- <h5 class="prl-block-title sienna">{{category}} <span class="prl-block-title-link right"><a href="#category?cat={{type}}" ng-show="number != 'all'">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
+ <h5 class="prl-block-title sienna">{{category}} <span class="prl-block-title-link right"><a href="#!category?cat={{type}}" ng-show="number != 'all'">ALL POSTS <i class="fa fa-caret-right"></i></a></span></h5>
 <div class="prl-grid prl-grid-divider">
 
     <div class="prl-span-12">
@@ -6,12 +6,12 @@
         <article class="prl-article prl-panel prl-grid" ng-repeat="article in articles">
             <a class="prl-thumbnail prl-span-4" href="">
                 <span class="prl-overlay ">
-                    <img src="assets/images/_p/5.jpg" alt="Lorem ipsum dolor sit amet">
+                    <img ng-src="{{article.post_img}}" alt="Xuat khau lao dong nhat ban">
                     <span class="prl-overlay-area o-video"></span>
                 </span>
             </a>
             <div class="prl-span-8">
-                <h3 class="prl-article-title"><a href="#order-detail?{{article.post_link}}">{{article.post_title}}</a> </h3> 
+                <h3 class="prl-article-title"><a href="#!order-detail?{{article.post_link}}">{{article.post_title}}</a> </h3> 
                 <div class="prl-article-meta">
                     <i class="fa fa-calendar-o"></i> <span>Nov 18th, 2013</span>&nbsp;&nbsp;
                 </div>    
